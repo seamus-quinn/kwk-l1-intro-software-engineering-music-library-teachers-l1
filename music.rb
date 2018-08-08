@@ -4,7 +4,7 @@
 
 def list_artists(hash)
   hash.each_key do |key|
-    key
+    puts key
   end
 end
 
