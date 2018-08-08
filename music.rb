@@ -3,8 +3,8 @@
 # This method should accept a hash as an argument.
 
 def list_artists(hash)
-  hash.each_key do |key|
-    puts key
+  hash.each_key do |artist|
+    puts artist
   end
 end
 
