@@ -12,7 +12,7 @@ end
 # This method should accept a hash as an argument.
 
 def list_songs(hash)
-  hash.each_value |song|
+  hash.each_value do |song|
     puts song
   end
 end
